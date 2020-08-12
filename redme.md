@@ -46,9 +46,9 @@ All the packages are available under GPL. You would have received a copy of GPL 
 
 In case of any queries, please contact ambapradeep@gmail.com.
  
-Amba Kulkarni (15th July 2012)
-----
+-- Amba Kulkarni (15th July 2012)
 
+----
 ### History:
 We acknowledge the help of ASR Melkote who had given their resources of Morphological Analyser in 2002. This formed a starting point for us. 
 
