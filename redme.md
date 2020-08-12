@@ -8,12 +8,19 @@ apache HTTP server
 bash
 lttoolbox
 graphviz
+
 libgdbm (required for hash tables in perl)
+
 gcc/g++
+
 flex
+
 bison
+
 perl
+
 python
+
 java (for Ashtadhyayi simulator)
 
 ### Perl modules:
