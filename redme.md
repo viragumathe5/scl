@@ -3,58 +3,50 @@
 The distribution contains various tools related to Sanskrit computations developed under the guidance of Amba Kulkarni since 2002.
 
 
-## Pre-requisites:
-apache HTTP server
-bash
-lttoolbox
-graphviz
+### Pre-requisites:
+*. apache HTTP server
+*. bash
+*. lttoolbox
+*. graphviz
+*. libgdbm (required for hash tables in perl)
+*. gcc/g++
+*. flex
+*. bison
+*. perl
+*. python
+*. java (for Ashtadhyayi simulator)
 
-libgdbm (required for hash tables in perl)
-
-gcc/g++
-
-flex
-
-bison
-
-perl
-
-python
-
-java (for Ashtadhyayi simulator)
-
-### Perl modules:
-Time::Out (0.11 or above)
+#### Perl modules:
+Time::Out (0.11 or above)<br>
 GDBM_File.pm
 
-### Ocaml
+#### Ocaml
 Ocamlpr4 patch
 
 #### The distribution comes in two forms:
-a. Following modules bundled together
+1. Following modules bundled together
    Morph analyser, Morph generator, Sandhi, Sandhi splitter, Anusaaraka Skt-Hnd MT system, transliteration modules, Amarakosha and Sankshepa Ramayana
   (scl.tgz)
 
 To install Sanskrit Computational Linguistics tools
 
-a. tar -xvzf scl.tgz 
+1. tar -xvzf scl.tgz 
 
-b. cp appropriate SPEC/spec*.txt file to scl directory. Name it as spec.txt
+2. cp appropriate SPEC/spec*.txt file to scl directory. Name it as spec.txt
    Check that the paths are correct, else make necessary changes.
 
-c. ./configure  (./configure_server for server version)
+3. ./configure  (./configure_server for server version)
 
-d. make all
+4. make all
 
-e. sudo make install (install_server for server version)
+5. sudo make install (install_server for server version)
 
 
 All the packages are available under GPL. You would have received a copy of GPL license with this package.
 
 In case of any queries, please contact ambapradeep@gmail.com.
 
-
--- Amba Kulkarni
+--  Amba Kulkarni<br>
 15th July 2012
 ----
 
@@ -86,12 +78,12 @@ Shrinivas Varkhedi, Director, Sanskrit Academy, Hyderabad
 
 Under this project on 'Development of Sanskrit Computational tools and Sanskrit-Hindi Machine Translation system', following tools have been developed:
 
-a. Morph analyser
-b. Morph generator
-c. Sandhi
-d. Sandhi Splitter
-e. Sanskrit-Hindi Machine Translation system (Sampark and Anusaaraka models)
-f. Compound Processor
+1. Morph analyser
+2. Morph generator
+3. Sandhi
+4. Sandhi Splitter
+5. Sanskrit-Hindi Machine Translation system (Sampark and Anusaaraka models)
+6. Compound Processor
 
 All these modules were developed at the Department of Sanskrit Studies, University of Hyderabad.
 
@@ -100,25 +92,25 @@ Various consortium members have contributed by developing annotated tests for bu
 During 2015-17 Amba Kulkarni was awarded a fellowship at Indian Institute of Advanced Study, Shimla. During this period she improved the parsing algorithms taking into account the yogyataa as a constraint.
 
 Following persons had major contribution in the development of the tools:
-a. Dr. Sheeba
-b. Dr. Devanand Shukl
-c. Mr. Anil Gupta
-d. Ms. Bhavani
-e. Ms. Gauri
-f. Ms. Kiranmayi
-g. Mr. Karunakar
-h. Dr. Shivaja
-i. Dr. Shailaja
-j. Dr. Pavankumar Satuluri
-k. Dr. Arjun K
+1. Dr. Sheeba
+2. Dr. Devanand Shukl
+3. Mr. Anil Gupta
+4. Ms. Bhavani
+5. Ms. Gauri
+6. Ms. Kiranmayi
+7. Mr. Karunakar
+8. Dr. Shivaja
+9. Dr. Shailaja
+10. Dr. Pavankumar Satuluri
+11. Dr. Arjun K
 
 In addition Converters and Transliteration modules for converting/transliterating from one scheme to the other are developed. Following schemes have been addressed.
-a. Unicode Devanagari (UTF-8)
-b. WX
-c. Velthuis
-d. Itrans
-e. SLP
-f. Kyoto Harvard
+1. Unicode Devanagari (UTF-8)
+2. WX
+3. Velthuis
+4. Itrans
+5. SLP
+6. Kyoto Harvard
 
 Dr. Sivaja Nair worked on her Ph.D. thesis on the Amarakosha from 2007-2011. The package she developed in the process is also available for distribution.
 
