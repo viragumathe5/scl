@@ -4,17 +4,17 @@ The distribution contains various tools related to Sanskrit computations develop
 
 
 ### Pre-requisites:
-*. apache HTTP server
-*. bash
-*. lttoolbox
-*. graphviz
-*. libgdbm (required for hash tables in perl)
-*. gcc/g++
-*. flex
-*. bison
-*. perl
-*. python
-*. java (for Ashtadhyayi simulator)
+* apache HTTP server
+* bash
+* lttoolbox
+* graphviz
+* libgdbm (required for hash tables in perl)
+* gcc/g++
+* flex
+* bison
+* perl
+* python
+* java (for Ashtadhyayi simulator)
 
 #### Perl modules:
 Time::Out (0.11 or above)<br>
@@ -23,12 +23,12 @@ GDBM_File.pm
 #### Ocaml
 Ocamlpr4 patch
 
-#### The distribution comes in two forms:
+### The distribution comes in two forms:
 1. Following modules bundled together
    Morph analyser, Morph generator, Sandhi, Sandhi splitter, Anusaaraka Skt-Hnd MT system, transliteration modules, Amarakosha and Sankshepa Ramayana
   (scl.tgz)
 
-To install Sanskrit Computational Linguistics tools
+#### To install Sanskrit Computational Linguistics tools
 
 1. tar -xvzf scl.tgz 
 
@@ -46,7 +46,7 @@ All the packages are available under GPL. You would have received a copy of GPL 
 
 In case of any queries, please contact ambapradeep@gmail.com.
 
---  Amba Kulkarni<br>
+- Amba Kulkarni<br>
 15th July 2012
 ----
 
