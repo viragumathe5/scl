@@ -45,9 +45,8 @@ Ocamlpr4 patch
 All the packages are available under GPL. You would have received a copy of GPL license with this package.
 
 In case of any queries, please contact ambapradeep@gmail.com.
-
-//-- Amba Kulkarni<br>
-15th July 2012
+ 
+Amba Kulkarni (15th July 2012)
 ----
 
 ### History:
